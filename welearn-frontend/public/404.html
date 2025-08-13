@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+      var path = window.location.pathname.split('/');
+      var repo = "welearn";
+      var redirectTo = "/" + repo + "/#" + path.slice(2).join('/');
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body></body>
+</html>
